@@ -17,10 +17,12 @@ namespace LINQ
                         group b.Title by b.Genre into g
                         select new { Genre = g.Key, Titles = g.ToList() };
 
-            //foreach (var item in query)
-            //{
-            //    Console.WriteLine(item);
-            //}
+            var linqQuery = books.Where(b => b.Genre == "Educational");
+
+            foreach (var book in linqQuery)
+            {
+                Console.WriteLine(book.Title);
+            }
         }
     }
 }

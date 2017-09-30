@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{6248191E-F863-4877-BB31-8A5E7B1D20EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async", "Async\Async.csproj", "{6356179A-2CDA-4B25-8B89-D02D199E93DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{6248191E-F863-4877-BB31-8A5E7B1D20EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6248191E-F863-4877-BB31-8A5E7B1D20EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6248191E-F863-4877-BB31-8A5E7B1D20EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6356179A-2CDA-4B25-8B89-D02D199E93DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6356179A-2CDA-4B25-8B89-D02D199E93DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6356179A-2CDA-4B25-8B89-D02D199E93DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6356179A-2CDA-4B25-8B89-D02D199E93DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
