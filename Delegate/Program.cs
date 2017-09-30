@@ -10,11 +10,16 @@ namespace Delegate
     {
         static void Main(string[] args)
         {
+            Action<string> TestingAction = name => Console.WriteLine("{0} is testing stuff.", name);
+
             var eu = new Worker("Andrei", Coding);
             eu.StartWork();
 
-            var john = new Worker("John", () => Console.WriteLine("Is a shitfag"));
+            var john = new Worker("John", () => Console.WriteLine("Is cleaning."));
             john.StartWork();
+
+
+            TestingAction("Mihai");
         }
 
         static void Coding()
