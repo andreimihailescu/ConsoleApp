@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "ConsoleApp1\In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polimorphism", "Polimorphism\Polimorphism.csproj", "{2C0DA896-5444-4333-9F0E-E7D7EC4E0E61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreTest", "CoreTest\CoreTest.csproj", "{EF53AFC4-5967-4920-AD44-FD69F725BC90}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Delegate\Delegate.csproj", "{B81A2855-87B4-4304-8BE0-920AE5DD7A28}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic", "Generic\Generic.csproj", "{C7C37BD1-94A7-4770-A51E-147D65BAAA19}"
@@ -33,10 +31,6 @@ Global
 		{2C0DA896-5444-4333-9F0E-E7D7EC4E0E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C0DA896-5444-4333-9F0E-E7D7EC4E0E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C0DA896-5444-4333-9F0E-E7D7EC4E0E61}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF53AFC4-5967-4920-AD44-FD69F725BC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF53AFC4-5967-4920-AD44-FD69F725BC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF53AFC4-5967-4920-AD44-FD69F725BC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF53AFC4-5967-4920-AD44-FD69F725BC90}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B81A2855-87B4-4304-8BE0-920AE5DD7A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B81A2855-87B4-4304-8BE0-920AE5DD7A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B81A2855-87B4-4304-8BE0-920AE5DD7A28}.Release|Any CPU.ActiveCfg = Release|Any CPU

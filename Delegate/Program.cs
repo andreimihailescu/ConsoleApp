@@ -20,6 +20,8 @@ namespace Delegate
 
 
             TestingAction("Mihai");
+
+            Console.ReadLine();
         }
 
         static void Coding()
