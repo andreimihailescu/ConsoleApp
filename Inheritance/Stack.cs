@@ -12,7 +12,7 @@ namespace Inheritance
         {
             if (obj == null)
             {
-                throw new InvalidOperationException("CUSTOM MADE!!!");
+                throw new InvalidOperationException("Parameter should not be null.");
             }
 
             _list.Add(obj);
